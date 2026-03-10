@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Trello Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jacquarda+Bastarda+9&family=Lora:ital,wght@0,400..700;1,400..700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <h2 class="title">Simple Trello Board</h2>
+
+    <div class="board">
+      <div class="list" data-list="0" style="background-color: #533f04">
+        <h3 class="headings">Today</h3>
+        <div class="tasks"></div>
+        <button class="add-task">Add Task</button>
+      </div>
+
+      <div class="list" data-list="1" style="background-color: #314b35">
+        <h3 class="headings">Week</h3>
+        <div class="tasks"></div>
+        <button class="add-task">Add Task</button>
+      </div>
+
+      <div class="list" data-list="2" style="background-color: black">
+        <h3 class="headings">Later</h3>
+        <div class="tasks"></div>
+        <button class="add-task">Add Task</button>
+      </div>
+    </div>
+
+    <button id="addColumn">+ Add Card</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
